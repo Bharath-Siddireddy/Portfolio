@@ -2,11 +2,11 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aquamarine;
+    background-color: rgb(222, 248, 239);  /* aquamarine */
 }
 
 header {
-    background-color: aqua;
+    background-color: rgb(162, 213, 245); /* aqua; */
     width: 100vw;
     height: 60px;
     display: flex;
@@ -29,7 +29,7 @@ nav {
 }
 
 #about_me {
-    background-color: aqua;
+    background-color: rgb(156, 236, 236);
     padding: 5px 5px 70px 45px;
 }
 #skills {
@@ -41,7 +41,7 @@ nav {
 }
 #projects {
     padding: 25px 5px 25px 45px;
-    background-color: aqua;
+    background-color: rgb(156, 236, 236);
 }
 
 .project-img {
@@ -67,7 +67,7 @@ footer {
 #refs a{
     padding: 5px;
     text-decoration: none;
-    color: rgb(82, 22, 246);
+    color: rgb(71, 7, 250);
     font-size: large;
     font-weight: 550;
 }

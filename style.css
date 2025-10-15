@@ -27,6 +27,12 @@ nav {
     width: 35px;
     padding-left: 20px;
 }
+#logo:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
 
 #about_me {
     background-color: rgb(156, 236, 236);
@@ -39,6 +45,19 @@ nav {
 #skills li {
     padding: 5px;
 }
+
+.skills_img {
+    width: 80px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.skills_img:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    border: 3px solid black;
+}
+
 #projects {
     padding: 25px 5px 25px 45px;
     background-color: rgb(156, 236, 236);
@@ -59,7 +78,6 @@ footer {
 }
 
 
-
 #refs {
     position: absolute;
     right: 50px;
@@ -73,6 +91,7 @@ footer {
 }
 #refs a:hover {
     text-decoration: underline;
+    color: rgb(12, 39, 163);
 }
 .connect {
     padding: 10px;
